@@ -1,0 +1,51 @@
+golang-github-mitchellh-go-homedir (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version 1.1.0
+  * Add debian/watch to track upstream tarball
+  * Apply "cme fix dpkg" fixes
+    - Update debhelper dependency to "Build-Depends: debhelper-compat (= 12)"
+    - Bump Standards-Version to 4.4.0 (no change)
+
+ -- Anthony Fok <foka@debian.org>  Sun, 11 Aug 2019 01:46:19 -0600
+
+golang-github-mitchellh-go-homedir (0.0~git20161203.0.b8bc1bf-2) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Anthony Fok ]
+  * Apply "cme fix dpkg" to debian/control,
+    bumping Standards-Version to 4.1.4,
+    setting Priority to optional, etc.
+
+ -- Anthony Fok <foka@debian.org>  Tue, 10 Apr 2018 05:23:05 -0600
+
+golang-github-mitchellh-go-homedir (0.0~git20161203.0.b8bc1bf-1) unstable; urgency=medium
+
+  * New upstream snapshot
+  * Use debhelper (>= 10)
+  * Bump Standards-Version to 4.0.0:
+    Use https form of the copyright-format URL in debian/copyright
+  * Add "Testsuite: autopkgtest-pkg-go" to debian/control
+  * Build-Depends on golang-any instead of golang-go
+  * Add myself to the list of Uploaders
+
+ -- Anthony Fok <foka@debian.org>  Fri, 21 Jul 2017 23:09:33 -0600
+
+golang-github-mitchellh-go-homedir (0.0~git20160621.0.756f7b1-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tim Potter ]
+  * New upstream snapshot (Closes: #830729)
+  * Standards-Version: 3.9.8
+  * Add me as uploader
+
+ -- Tim Potter <tpot@hpe.com>  Tue, 02 Aug 2016 07:14:20 +1000
+
+golang-github-mitchellh-go-homedir (0.0~git20150831.0.df55a15-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Tianon Gravi <tianon@debian.org>  Tue, 06 Oct 2015 10:52:19 -0700

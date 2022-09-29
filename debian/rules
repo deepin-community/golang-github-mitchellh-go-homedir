@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+override_dh_auto_test:
+	# explicitly unset HOME to force tests to shell out
+	HOME= dh_auto_test
+
+%:
+	dh $@ --buildsystem=golang --with=golang
